@@ -1,6 +1,9 @@
+# Build ESXi installer with NIC drivers (built-in and USB) for NUC 10
+
 # Install VMware PowerCLI module
 Install-Module -Name VMware.PowerCLI -Scope CurrentUser -AllowClobber
 
+# Do not send back data
 Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false
 
 # Build profile names
