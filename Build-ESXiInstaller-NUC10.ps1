@@ -1,4 +1,8 @@
 # Build ESXi installer with NIC drivers (built-in and USB) for NUC 10
+#
+# Prerequisite
+# 1. https://download3.vmware.com/software/vmw-tools/ESXi670-NE1000-32543355-offline_bundle-15486963.zip
+# 2. ESXi700-VMKUSB-NIC-FLING-39035884-component-16770668.zip from https://flings.vmware.com/usb-network-native-driver-for-esxi
 
 # Install VMware PowerCLI module
 Install-Module -Name VMware.PowerCLI -Scope CurrentUser -AllowClobber
